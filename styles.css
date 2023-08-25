@@ -3,12 +3,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: black; /* Set font color to black */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: white; /* Set background color to white */
+    border-bottom: 2px solid blue; /* Add blue line under the navigation */
     padding: 10px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 24px; /* Adjust the font size for the title */
 }
 
 nav ul {
@@ -18,30 +24,30 @@ nav ul {
 }
 
 nav ul li {
-    display: center;
+    display: inline;
     margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: black; /* Set font color to black */
     font-weight: bold;
 }
 
-main {
-    margin: 20px;
+.content-wrapper {
+    display: flex;
 }
 
 .blog-post {
     width: 70%;
-    float: left;
+    padding: 20px;
 }
 
 .ads {
     width: 30%;
-    float: right;
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 20px;
+    border-left: 1px solid #ccc;
 }
 
 footer {
